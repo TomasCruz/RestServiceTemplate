@@ -21,8 +21,8 @@ Embedded Jetty server runs on 8080
 /RS/rest/token?username={user}&password={pass}
 	Used for generating token, can be accessed from browser
 
-/RS/
-	SwaggerUI page of the application
+/RS/  
+	SwaggerUI page of the application  
 
 /RS/rest/openapi.json
 	Json file internally used by OpenAPI
@@ -39,4 +39,9 @@ This code uses JJWT which is licensed under the Apache 2.0 License, and can be o
 This code uses Log4j2 which is licensed under the Apache 2.0 License, and can be obtained on [Log4j2](https://logging.apache.org/log4j/2.0/)
 This code uses OpenAPI which is licensed under the Apache 2.0 License, and can be obtained on [OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification)
 This code uses Jetty which is licensed under the Apache 2.0 License (also EPL1), and can be obtained on [Jetty](https://github.com/eclipse/jetty.project)
+
+#### Contact
+
+Author can be contacted on:  
+tomas.cruz.000@gmail.com
 
