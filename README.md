@@ -19,7 +19,7 @@ Embedded Jetty server runs on 8080
 #### Webpages
 
 /RS/rest/token?username={user}&password={pass}  
-	{nbsp}{nbsp}{nbsp}Used for generating token, can be accessed from browser  
+	{nbsp}{nbsp}{nbsp} + Used for generating token, can be accessed from browser  
 
 /RS/  
 	{nbsp}{nbsp}{nbsp}SwaggerUI page of the application  
