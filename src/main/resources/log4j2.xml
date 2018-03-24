@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <RollingFile name="fout"
+                     fileName="../logs/RS.log"
+                     filePattern="../logs/RS.%i.log.zip"
+                     append="true" ignoreExceptions="false">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p %C{1} - %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="1 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="20"/>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="DEBUG" additivity="false">
+            <AppenderRef ref="fout"/>
+        </Root>
+        <Logger name="io.swagger" level="INFO">
+            <AppenderRef ref="fout"/>
+        </Logger>
+        <Logger name="org.reflections" level="INFO">
+            <AppenderRef ref="fout"/>
+        </Logger>
+    </Loggers>
+</Configuration>
