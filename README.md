@@ -18,14 +18,14 @@ Embedded Jetty server runs on 8080
 
 #### Webpages
 
-/RS/rest/token?username={user}&password={pass}
-	Used for generating token, can be accessed from browser
+/RS/rest/token?username={user}&password={pass}  
+	{nbsp}{nbsp}{nbsp}Used for generating token, can be accessed from browser  
 
 /RS/  
-	SwaggerUI page of the application  
+	{nbsp}{nbsp}{nbsp}SwaggerUI page of the application  
 
-/RS/rest/openapi.json
-	Json file internally used by OpenAPI
+/RS/rest/openapi.json  
+	{nbsp}{nbsp}{nbsp}Json file internally used by OpenAPI  
 
 #### Author
 
@@ -35,10 +35,10 @@ Developed by [Toma Krstić](https://github.com/TomasCruz/)
 
 This project is open-source via the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
 
-This code uses JJWT which is licensed under the Apache 2.0 License, and can be obtained on [JJWT](https://github.com/jwtk/jjwt)
-This code uses Log4j2 which is licensed under the Apache 2.0 License, and can be obtained on [Log4j2](https://logging.apache.org/log4j/2.0/)
-This code uses OpenAPI which is licensed under the Apache 2.0 License, and can be obtained on [OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification)
-This code uses Jetty which is licensed under the Apache 2.0 License (also EPL1), and can be obtained on [Jetty](https://github.com/eclipse/jetty.project)
+This code uses JJWT which is licensed under the Apache 2.0 License, and can be obtained on [JJWT](https://github.com/jwtk/jjwt)  
+This code uses Log4j2 which is licensed under the Apache 2.0 License, and can be obtained on [Log4j2](https://logging.apache.org/log4j/2.0/)  
+This code uses OpenAPI which is licensed under the Apache 2.0 License, and can be obtained on [OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification)  
+This code uses Jetty which is licensed under the Apache 2.0 License (also EPL1), and can be obtained on [Jetty](https://github.com/eclipse/jetty.project)  
 
 #### Contact
 
